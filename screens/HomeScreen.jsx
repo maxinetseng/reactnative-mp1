@@ -10,7 +10,7 @@ import { styles } from "../constants/Styles";
 export default function HomeScreen(props) {
   const { navigation } = props;
   return (
-    <View style={styles.container}>
+    <View style={styles.container}> //wrap element for parent component
       <View style={styles.imageView}>
         <Image
           source={require("../assets/mdb_logo.png")}
